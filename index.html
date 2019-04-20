@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+
+	<title>Портфолио</title>
+	
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script src="scripts/script-bg.js" defer></script>
+	<script src="scripts/jquery-3.3.1.min.js" defer></script>
+	<script src="scripts/script.js" defer></script>
+</head>
+<body class="page">
+	<header class="header">
+		<div class="header__container page__container">
+			<nav class="header__menu">
+				<div class="header__menu-bars menu-bars"><i class="fa fa-bars"></i></div>
+				<ul class="header__list">
+					<li class="header__list-item"><a href="#service">Услуги</a></li>
+					<li class="header__list-item"><a href="#portfolio">Портфолио</a></li>
+					<li class="header__list-item"><a href="#price">Стоимость</a></li>
+				</ul>
+				<div class="header__phone">+ 7 (499) 995-55-77
+					<button class="header__btn_empty btn_empty btn_call">Заказать звонок</button>
+					<button class="header__btn_mob btn_mob btn_call"><i class="fa fa-phone"></i></button>
+					<div class="header__popup popup"></div>
+				</div>
+			</nav>
+		</div>
+		<div class="header__letters_red">#</div>
+		<div class="header__letters_red">{ }</div>
+		<div class="header__letters_red">&lt;div&gt;</div>
+		<div class="header__letters_red">&lt;div&gt;</div>
+		<div class="header__letters_red">&lt;/&gt;</div>
+		<div class="header__letters_red">&lt;/&gt;</div>
+		<canvas class="header__background-gradient" id="canvas" width="700" height="625">Your browser doesn't support HTML canvas</canvas>
+		<img src="img/photo.png" alt="photo" class="header__photo">
+		<div class="header__container page__container">
+			<div class="header__name">Дмитрий Алексеев</div>
+			<div class="header__sub-name">Frontend-разработчик и веб-верстальщик</div>
+			<button class="header__btn_filled btn_filled">Узнать больше</button>
+		</div>
+	</header>
+	<section class="service" id="service">
+		<div class="service__container page__container">
+			<h1 class="service__title page__title">Что я делаю</h1>
+			<div class="service__items">
+				<div class="service__item">
+					<div class="service__image service__image-1"></div>
+					Верстка лендинг-страниц и&nbsp;сайтов любой сложности
+				</div>
+				<div class="service__item">
+					<div class="service__image service__image-2"></div>
+					Адаптивная вёрстка под все браузеры и&nbsp;устройства
+				</div>
+				<div class="service__item">
+					<div class="service__image service__image-3"></div>
+					Frontend-разработка и&nbsp;программирование
+				</div>
+				<div class="service__item">
+					<div class="service__image service__image-4"></div>
+					Исправление и&nbsp;доработка существующей верстки
+				</div>
+			</div>
+			<button class="service__btn_filled btn_filled">Узнать стоимость</button>
+		</div>
+	</section>
+	<section class="portfolio" id="portfolio">
+		<div class="portfolio__container page__container">
+			<h1 class="portfolio__title page__title">Примеры моих работ</h1>
+			<img src="img/arrow.png" alt="left arrow" class="portfolio__l-arrow">
+			<img src="img/arrow.png" alt="right arrow" class="portfolio__r-arrow">
+			<div class="portfolio__viewport">
+				
+				<ul class="portfolio__items">
+					<li class="portfolio__item">
+						<img src="img/portfolio-1.jpg" alt="portfolio-1" class="portfolio__image">
+						Сайт психолога Веры Антоновой
+					</li>
+					<li class="portfolio__item">
+						<img src="img/portfolio-2.jpg" alt="portfolio-2" class="portfolio__image">
+						Сайт магазина детской одежды
+					</li>
+					<li class="portfolio__item">
+						<img src="img/portfolio-3.jpg" alt="portfolio-3" class="portfolio__image">
+						Сайт магазина &laquo;Рыболов&raquo;
+					</li>
+				</ul>
+			</div>
+			<ul class="portfolio__nav-btns">
+				<li class="portfolio__nav-btn"></li>
+				<li class="portfolio__nav-btn"></li>
+				<li class="portfolio__nav-btn"></li>
+			</ul>
+			<button class="portfolio__btn_filled btn_filled">Заказать проект</button>
+		</div>
+	</section>
+	<section class="price" id="price">
+		<div class="price__letters_white">#</div>
+		<div class="price__letters_white">{ }</div>
+		<div class="price__letters_white">{ }</div>
+		<div class="price__letters_white">&lt;div&gt;</div>
+		<div class="price__letters_white">&lt;/&gt;</div>
+		<div class="price__container page__container">
+			<h1 class="price__text">
+				Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000&nbsp;рублей всего за&nbsp;4&nbsp;часа.*
+			</h1>
+			<div class="price__subtext">
+				<div>*</div> <div class="price__subtext_margin">Срок и стоимость могут отличаться от&nbsp;заявленных и рассчитываются индивидуально,<br>в&nbsp;зависимости от&nbsp;сложности задач</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__container page__container">
+			<nav class="footer__menu">
+				<ul class="footer__list">
+					<li class="footer__list-item">Услуги</li>
+					<li class="footer__list-item">Портфолио</li>
+					<li class="footer__list-item">Стоимость</li>
+				</ul>
+			</nav>
+			<div class="footer__contacts">
+				<div class="footer__phone">
+					<i class="fa fa-phone"></i>
+					<span>+7 (499) 995-77-55</span>
+				</div>
+				<div class="footer__email">
+					<i class="fa fa-envelope"></i>
+					<span>dmitry@alekseev.com</span>
+				</div>
+			</div>
+			<div class="footer__connect">
+				<button class="footer__btn_empty btn_empty btn_call">
+					Заказать звонок
+				</button>
+				<div class="footer__social">
+					<!--a href="#" target="_blank" id="vk-logo">
+						<i class="fa fa-vk"></i>
+					</a>
+					<a href="#" target="_blank" id="fb-logo">
+						<i class="fa fa-facebook"></i>
+					</a>
+			        <a href="#" target="_blank" id="tw-logo">
+			        	<i class="fa fa-twitter"></i>
+			        </a>
+			        <a href="#" target="_blank" id="ig-logo">
+			        	<i class="fa fa-instagram"></i>
+			        </a-->
+					<p class="footer__social-item">
+						<a href="https://vk.com" target="_blank">
+						<img src="img/social.png" alt="vk-logo" class="footer__logo vk-logo">
+						</a>
+					</p>
+					<p class="footer__social-item">
+						<a href="https://facebook.com" target="_blank">
+						<img src="img/social.png" alt="fb-logo" class="footer__logo fb-logo">
+					</a></p>
+			        <p class="footer__social-item">
+			        	<a href="https://twitter.com" target="_blank">
+			        	<img src="img/social.png" alt="tw-logo" class="footer__logo tw-logo">
+			        </a></p>
+			        <p class="footer__social-item">
+			        	<a href="https://instagram.com" target="_blank">
+			        	<img src="img/social.png" alt="ig-logo" class="footer__logo ig-logo">
+			        </a></p>			        
+				</div>
+			</div>
+			<div class="footer__copy">&copy; Дмитрий Алексеев, 2016 &#8211; 2018</div>
+		</div>
+	</footer>
+</body>
+</html>
